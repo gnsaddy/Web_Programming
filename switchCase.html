@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head><h1>Switch case in JS</h1><br/>
+	<title>Switch</title>
+</head>
+<body>
+	<form>
+		<table>
+			<tr>
+				<td><label for="firstnumber"><b>First Number: </b></label></td>
+				<td><input id="firstnumber" type="text" placeholder="Input First Number"/></td>
+			</tr>
+			<tr>
+				<td><label for="secondnumber"><b>Second Number: </b></label></td>
+				<td><input id="secondnumber" type="text" placeholder="Input Second Number"/></td>
+			</tr>
+			<tr>
+				<td><label for="result"><b>Result: </b></label></td>
+				<td><input id="result" type="text" placeholder="Result"/></td>
+			</tr>
+			<tr>
+				<td>
+					<td><br><button type="button" onclick="add()">Check Result</button></td>
+				</td>
+			</tr>
+		</table>
+	</form>
+	<script type="text/javascript">
+		var a=0;
+		var b=0;
+		var c=0;
+
+		function add(){
+			a= document.getElementById("firstnumber").value;
+			b= document.getElementById("secondnumber").value;
+			c=a+b;
+			document.write(c);
+
+		}
+
+		
+		
+	</script>
+
+</body>
+</html>

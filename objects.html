@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head><h1>Objects in JavaScript!!!!!!!!  </h1>
+	<h3>Object creation through constructor!!!!!!!!!!</h3>
+	<title>Object</title>
+	<script type="text/javascript">
+		function personDetails(name,age,state){
+			this.name=name;
+			this.age=age;
+			this.state=state;
+		}
+		var firstObj = new personDetails("Aditya raj",20,"Bihar");
+		var secondObj = new personDetails("Syed Numan",22,"Delhi");
+	</script>
+</head>
+<body>
+	<script type="text/javascript">
+		document.write("<b><u>First Person Detail.......<br/></u></b>");
+		document.write(firstObj.name+"<br/>");
+		document.write(firstObj.age+"<br/>");
+		document.write(firstObj.state+"<br/>");
+		document.write("<b><u>Second Person Detail.......<br/></u></b>");
+		document.write(secondObj.name+"<br/>");
+		document.write(secondObj.age+"<br/>");
+		document.write(secondObj.state+"<br/>");
+
+	</script>
+
+</body>
+</html>

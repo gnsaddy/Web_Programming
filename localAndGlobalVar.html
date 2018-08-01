@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head><h1> Global and Local Variable:</h1>
+	<title>Variable</title>
+</head>
+<body>
+	<script type="text/javascript">
+		var str1 = "Hello Global ";
+		document.write("<br/>"+"Global Variable invoked----"+ str1+ "<br/>");
+
+		function check(){
+			var str2 = "Hello Local";
+			document.write("<br/>"+"Local Variable invoked----"+ str2+ "<br/>");
+			document.write("<br/>"+"Global Variable invoked----"+ str1+ "<br/>");
+		}
+		document.write("<br/>"+"Global Variable invoked----"+ str1+ "<br/>");  
+		//document.write("<br/>"+"Local Variable invoked----"+ str2+ "<br/>"); // can not invoked 
+		check();
+	</script>
+
+</body>
+</html>

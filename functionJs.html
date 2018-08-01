@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	Function with Multiple parameters:<br/>
+	<title>Function</title>
+</head>
+<body>
+	<script type="text/javascript">
+		function sum(a,b){
+			document.write("First Number: "+ a +"<br/>"+"Second Number: "+ b + "<br/>");
+			document.write("Sum = "+ (a+b)+"<br/>");
+		}
+
+		//return function
+
+		function sub(d,e){
+			var x=d-e;
+			return x;  //returning value of x
+		}
+		sum(52,85);
+		sum(56465,646464);
+        document.write("subtraction = "+ sub(54546,7845)+"<br/>");
+
+        document.write("----------------***************-------------"+"<br/>");
+
+        // calling a function from another function
+
+        function callAll(){
+        	sum(521,485);
+		    sum(564,64);
+            document.write("subtraction = "+ sub(545,45));
+        }
+        callAll();  //this called the above two functions
+
+	</script>
+
+</body>
+</html>
